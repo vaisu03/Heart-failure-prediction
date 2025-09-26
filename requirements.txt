@@ -6,3 +6,6 @@ matplotlib
 seaborn
 imblearn
 bcrypt
+lightgbm
+xgboost
+joblib
