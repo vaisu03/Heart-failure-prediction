@@ -59,7 +59,8 @@ def get_patient_details(patient_id):
 
 # =========================
 # Load Model & Feature Names
-model_path = os.path.join(os.path.dirname(__file__), "heart_failure_model.pkl")
+model_path = os.path.join(os.path.dirname(__file__), "model/heart_failure_model.pkl")
+
 model = joblib.load(model_path)
 
 FEATURE_COLUMNS = [
